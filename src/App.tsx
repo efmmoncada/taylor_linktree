@@ -25,10 +25,10 @@ function App() {
         alt="Taylor Landress"
       />
       {/* <div className="overflow-hidden relative"> */}
-      <h1 className="text-4xl font-extralight absolute top-24 left-10">
+      <h1 className="text-4xl font-extralight absolute top-24 left-10 short:top-8 short:text-2xl">
         t a y l o r
       </h1>
-      <h1 className="text-4xl font-extralight absolute right-10 top-80">
+      <h1 className="text-4xl font-extralight absolute right-10 top-80 short:top-8 short:text-2xl">
         l a n d r e s s
       </h1>
       {/* </div> */}

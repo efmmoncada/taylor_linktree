@@ -6,6 +6,11 @@ module.exports = {
       fontFamily: {
         main: ['"Cormorant Garamond"'],
       },
+      screens: {
+        'short': {
+          'raw': '(max-height: 800px)'
+        }
+      }
     },
   },
   plugins: [],
