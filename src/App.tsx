@@ -25,14 +25,14 @@ function App() {
         alt="Taylor Landress"
       />
       {/* <div className="overflow-hidden relative"> */}
-      <h1 className="text-4xl font-extralight absolute top-24 left-10 short:top-8 short:text-2xl">
+      <h1 className="text-4xl font-extralight absolute top-24 left-10 short:top-20 short:text-2xl">
         t a y l o r
       </h1>
-      <h1 className="text-4xl font-extralight absolute right-10 top-80 short:top-8 short:text-2xl">
+      <h1 className="text-4xl font-extralight medShort:top-[17rem] absolute right-10 top-80 short:text-2xl short:top-56">
         l a n d r e s s
       </h1>
       {/* </div> */}
-      <div className="grid gap-4 justify-center absolute bottom-24">
+      <div className="grid gap-4 justify-center absolute bottom-24 medShort:bottom-12">
         {links.map((link, i) => (
           <Link key={i} {...link} i={i} />
         ))}

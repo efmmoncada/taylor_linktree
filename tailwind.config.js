@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["index.html", "./src/**/*.{js,jsx,ts,tsx,vue,html}"],
   theme: {
@@ -7,10 +7,13 @@ module.exports = {
         main: ['"Cormorant Garamond"'],
       },
       screens: {
-        'short': {
-          'raw': '(max-height: 780px)'
-        }
-      }
+        "medShort": {
+          raw: "(max-height: 740px)",
+        },
+        short: {
+          raw: "(max-height: 680px)",
+        },
+      },
     },
   },
   plugins: [],
