@@ -8,7 +8,7 @@ module.exports = {
       },
       screens: {
         'short': {
-          'raw': '(max-height: 800px)'
+          'raw': '(max-height: 780px)'
         }
       }
     },
