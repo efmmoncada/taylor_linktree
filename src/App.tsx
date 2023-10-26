@@ -44,13 +44,13 @@ function App() {
           maxWidth: maxWidth,
         }}
       >
-        <div className="grid gap-4 justify-center">
+        <div className="grid gap-4 justify-center z-20">
           {links.map((link, i) => (
             <Link key={i} {...link} />
           ))}
         </div>
       </div>
-      <div className="absolute grid justify-stretch items-center h-1/2 bottom-0 w-full">
+      <div className="absolute grid justify-stretch items-center h-1/2 bottom-0 w-full z-10">
         {links.map((_, i) => (
           <img
             src={bullet}
