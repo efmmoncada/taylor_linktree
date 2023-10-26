@@ -4,18 +4,11 @@ type Props = {
   url: string;
   text: string;
   icon?: string;
-  i: number;
 };
 
-export default function Link({ url, icon, text, i }: Props) {
-  const posShift = i % 2 === 0 ? "-left-[10rem]" : "-right-[10rem]";
-
+export default function Link({ url, icon, text }: Props) {
   return (
-    <div className="relative">
-      <img
-        src={bullet}
-        className={`absolute -top-24 ${posShift} scale-[0.2]`}
-      />
+    <div>
       <a
         href={url}
         target="_blank"
