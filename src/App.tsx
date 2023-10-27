@@ -8,7 +8,6 @@ function App() {
   const [maxWidth, setMaxWidth] = useState<number>();
 
   useEffect(() => {
-    location.reload();
     setMaxWidth(ref.current ? ref.current.offsetWidth : 0);
   }, []);
 
