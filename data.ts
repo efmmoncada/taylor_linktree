@@ -13,16 +13,16 @@ export const links: Link[] = [
   {
     text: "Instagram",
     url: "https://www.instagram.com/taylorlandressss/",
-    icon: "fa-brands fa-instagram"
+    icon: "fa-brands fa-instagram",
   },
   {
     text: "Discord",
     url: "https://discord.gg/DNacJuRu4A",
-    icon: "fa-brands fa-discord"
+    icon: "fa-brands fa-discord",
   },
   {
-    text: 'Pre-save "enough"',
-    url: "distrokid.com/hyperfollow/taylorlandress/enough",
-    icon: "fa-solid fa-music"
+    text: 'Stream "enough" here!',
+    url: "https://songwhip.com/taylorlandress/enough",
+    icon: "fa-solid fa-music",
   },
 ];
