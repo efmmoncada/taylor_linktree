@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setMaxWidth(ref.current ? ref.current.offsetWidth : 0);
-    }, 50);
+    }, 100);
   }, []);
 
   return (
