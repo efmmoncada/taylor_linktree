@@ -7,9 +7,6 @@ module.exports = {
         main: ['"Cormorant Garamond"'],
       },
       screens: {
-        "medShort": {
-          raw: "(max-height: 740px)",
-        },
         short: {
           raw: "(max-height: 680px)",
         },

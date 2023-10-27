@@ -1,5 +1,3 @@
-import bullet from "./moon_1.png";
-
 type Props = {
   url: string;
   text: string;

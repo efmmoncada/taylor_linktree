@@ -1,5 +1,4 @@
-import moon from "./moon2.jpg";
-import bullet from "./moon_1.png";
+import moon from "./moon.jpg";
 import { links } from "../data";
 import Link from "./Link";
 import { useEffect, useRef, useState } from "react";
@@ -49,19 +48,6 @@ function App() {
             <Link key={i} {...link} />
           ))}
         </div>
-      </div>
-      <div className="absolute grid justify-stretch items-center h-1/2 bottom-0 w-full z-10">
-        {links.map((_, i) => (
-          <img
-            src={bullet}
-            className={`max-w-[2rem] h-auto`}
-            style={{
-              justifySelf: i % 2 === 0 ? "start" : "end",
-              marginLeft: i % 2 === 0 ? 20 : 0,
-              marginRight: i % 2 === 1 ? 20 : 0,
-            }}
-          />
-        ))}
       </div>
     </div>
   );
