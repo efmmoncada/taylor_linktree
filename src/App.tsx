@@ -8,12 +8,14 @@ function App() {
   const [maxWidth, setMaxWidth] = useState<number>();
 
   useEffect(() => {
-    setMaxWidth(ref.current ? ref.current.offsetWidth : 0);
+    setTimeout(() => {
+      setMaxWidth(ref.current ? ref.current.offsetWidth : 0);
+    }, 50);
   }, []);
 
   return (
     <div
-      className="text-center font-main relative mx-auto text-white h-full"
+      className="text-center font-main relative mx-auto text-white h-full w-full"
       style={{
         maxWidth: maxWidth,
       }}
