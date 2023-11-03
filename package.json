@@ -2,6 +2,7 @@
   "name": "template-vite-react-ts-tailwind-v3",
   "version": "0.0.0",
   "homepage": "www.taylorlandress.com",
+  "icon": "./src/favicon.jpg",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
