@@ -22,7 +22,7 @@ export const links: Link[] = [
   },
   {
     text: 'Stream "ghost" here!',
-    url: "https://distrokid.com/hyperfollow/taylorlandress/ghost",
+    url: "https://songwhip.com/taylorlandress/ghost",
     icon: "fa-solid fa-music",
   },
 ];
