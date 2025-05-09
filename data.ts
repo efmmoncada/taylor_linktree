@@ -21,8 +21,8 @@ export const links: Link[] = [
     icon: "fa-brands fa-discord",
   },
   {
-    text: 'Stream "ghost" here!',
-    url: "https://songwhip.com/taylorlandress/ghost",
+    text: 'Preseave "again" here!',
+    url: "",
     icon: "fa-solid fa-music",
   },
 ];
