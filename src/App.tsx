@@ -19,7 +19,7 @@ function App() {
         ref={ref}
         className="mx-auto h-full object-cover object-center opacity-75"
         src={background}
-        alt="neon lights"
+        alt="moon"
       />
 
       <div
@@ -31,9 +31,11 @@ function App() {
       >
         <div
           className="relative h-1/2"
-          style={{
-            maxWidth: maxWidth,
-          }}
+          style={
+            {
+              // maxWidth: maxWidth,
+            }
+          }
         >
           <h1 className="pt-24 text-center text-4xl font-extralight short:text-3xl">
             t a y l o r &nbsp; &nbsp; &nbsp; l a n d r e s s
