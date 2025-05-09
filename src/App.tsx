@@ -50,7 +50,7 @@ function App() {
             maxWidth: maxWidth,
           }}
         >
-          <div className="relative bottom-72 z-20 grid justify-center gap-4">
+          <div className="relative bottom-60 z-20 grid justify-center gap-4">
             {links.map((link, i) => (
               <Link key={i} {...link} />
             ))}
