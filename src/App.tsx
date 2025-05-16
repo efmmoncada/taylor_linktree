@@ -37,7 +37,7 @@ function App() {
             }
           }
         >
-          <h1 className="pt-24 text-center text-4xl font-extralight short:text-3xl">
+          <h1 className="pt-20 text-center text-4xl font-extralight short:text-3xl">
             t a y l o r &nbsp; &nbsp; &nbsp; l a n d r e s s
           </h1>
           {/* <h1 className="absolute bottom-11 right-8 text-4xl font-extralight short:text-3xl">
@@ -50,7 +50,7 @@ function App() {
             maxWidth: maxWidth,
           }}
         >
-          <div className="relative bottom-96 z-20 grid justify-center gap-4">
+          <div className="relative bottom-60 z-20 grid justify-center gap-4">
             {links.map((link, i) => (
               <Link key={i} {...link} />
             ))}
