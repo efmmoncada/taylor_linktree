@@ -21,8 +21,8 @@ export const links: Link[] = [
     icon: "fa-brands fa-discord",
   },
   {
-    text: 'Stream "again" here!',
-    url: "https://distrokid.com/hyperfollow/taylorlandress/again",
+    text: 'Stream my music here!',
+    url: "https://hyperfollow.com/taylorlandress",
     icon: "fa-solid fa-music",
   },
 ];

@@ -40,9 +40,6 @@ function App() {
           <h1 className="pt-20 text-center text-4xl font-extralight short:text-3xl">
             t a y l o r &nbsp; &nbsp; &nbsp; l a n d r e s s
           </h1>
-          {/* <h1 className="absolute bottom-11 right-8 text-4xl font-extralight short:text-3xl">
-            l a n d r e s s
-          </h1> */}
         </div>
         <div
           className="relative flex h-1/2 items-center justify-center"
